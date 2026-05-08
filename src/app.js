@@ -1,3 +1,4 @@
+import express from "express"
 import { router as apiRouter } from "./routes/api.routes.js";
 import { mdebug } from "./middlewares/debug.middleware.js";
 import { notFound, errorHandler } from "./middlewares/errors.middleware.js";
