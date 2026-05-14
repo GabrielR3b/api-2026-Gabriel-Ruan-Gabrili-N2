@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TEXTO</h1>
+    <div class="container">
+  <% listaProdutos.forEach(produto => { %>
+  <div class="card">
+    <h3><%= produto.nome %></h3>
+
+    <p>Status: <%= produto.disponivel ? "Em estoque" : "Indisponível" %></p>
+  </div>
+  <% }); %>
+</div>
+</body>
+</html>
+

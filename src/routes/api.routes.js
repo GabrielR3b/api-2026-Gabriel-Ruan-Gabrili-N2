@@ -12,4 +12,9 @@ router.get("/info/:id", verifyParamId, (req, res, next) =>
   controller.getInfoByParamId(req, res, next)
 );
 
+router.get('/home', (req, res) => {
+    const dados = { titulo: 'Loja Virtual' };
+    res.json(dados); // Entrega o JSON puro
+});
+
 export { router };
