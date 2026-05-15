@@ -10,3 +10,7 @@ router.get("/products", (req, res, next) =>
 );
 // ...
 export { router };
+
+router.get("/products/:id", (req, res, next) =>
+  controller.getProductById(req, res, next),
+);
