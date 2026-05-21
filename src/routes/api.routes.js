@@ -17,4 +17,9 @@ router.get('/home', (req, res) => {
     res.json(dados); // Entrega o JSON puro
 });
 
+router.get('/', (req, res) => {
+  res.render('index');
+});
+
 export { router };
+

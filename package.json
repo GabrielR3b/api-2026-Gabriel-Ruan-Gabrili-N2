@@ -4,7 +4,9 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "ejs": "^5.0.2",
+    "ejs-layouts": "^0.0.1",
     "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
     "nodemon": "^3.1.14"
   },
   "name": "api-2026-gabriel-ruan-gabrili-n2",

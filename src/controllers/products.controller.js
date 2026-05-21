@@ -4,10 +4,10 @@ export default class ProductsController {
   async getProducts(req, res, next) {
     try {
       const products = [
-        { id: 1, nome: "Teclado", disponivel: true },
-        { id: 2, nome: "Mouse", disponivel: true },
-        { id: 3, nome: "Monitor", disponivel: false },
-        { id: 4, nome: "Caixa de Som", disponivel: false },
+        { id: 1, nome: "Camisa Seleção Brasileira Copa 2026 (Amarela)", disponivel: true },
+        { id: 2, nome: "Camisa Seleção Brasileira Copa 2026 (Azul)", disponivel: true },
+        { id: 3, nome: "Album de figurinhas Copa do Mundo FIFA 2026 PANINI", disponivel: false },
+        { id: 4, nome: "Chuteira Nike X Vermelha", disponivel: false },
       ];
       res.json({ productsList: products });
     } catch (error) {
